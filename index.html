@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bala Iswarya P | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#222;
+    overflow-x:hidden;
+}
+
+/* Scroll Animation Canvas */
+#bg-canvas{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    z-index:-1;
+    opacity:0.08; /* watermark transparency */
+    pointer-events:none;
+}
+
+/* Main Container */
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:80px 0;
+}
+
+/* Header */
+header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+header h1{
+    font-size:42px;
+    font-weight:700;
+}
+
+header p{
+    font-size:18px;
+    margin-top:10px;
+    color:#555;
+}
+
+/* Sections */
+section{
+    margin-bottom:60px;
+}
+
+section h2{
+    font-size:28px;
+    margin-bottom:20px;
+    border-left:5px solid #4a6cf7;
+    padding-left:15px;
+}
+
+/* Cards */
+.card{
+    background:#ffffffee;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.05);
+    backdrop-filter:blur(5px);
+}
+
+ul{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+.skills span{
+    display:inline-block;
+    background:#4a6cf7;
+    color:white;
+    padding:6px 14px;
+    border-radius:20px;
+    margin:5px 5px 0 0;
+    font-size:14px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:40px 0;
+    color:#777;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<div class="container">
+
+<header>
+    <h1>Bala Iswarya P</h1>
+    <p>Electronics and Communication Engineering Student</p>
+    <p>📍 Thoothukudi | 📞 +91-8122821774 | ✉ balaiswarya2005@gmail.com</p>
+</header>
+
+<section>
+<h2>Personal Details</h2>
+<div class="card">
+<p><strong>Date of Birth:</strong> August 16, 2005</p>
+<p><strong>Gender:</strong> Female</p>
+<p><strong>Current Location:</strong> Thoothukudi</p>
+</div>
+</section>
+
+<section>
+<h2>Education</h2>
+<div class="card">
+<p><strong>B.Tech - Electronics and Communication Engineering</strong></p>
+<p>Anna University | CGPA: 8.1%</p>
+</div>
+
+<div class="card">
+<p><strong>Class XII</strong> – Tamil Nadu</p>
+<p>90.5% (2023)</p>
+</div>
+
+<div class="card">
+<p><strong>Class X</strong> – Tamil Nadu</p>
+<p>100% (2021)</p>
+</div>
+
+<div class="card">
+<p><strong>Certification</strong></p>
+<p>Foundation Course on IR4.0 Technologies (Sep 2024 – Present)</p>
+</div>
+</section>
+
+<section>
+<h2>Internships</h2>
+
+<div class="card">
+<p><strong>Emertex</strong> (Nov 2025 – Jan 2026)</p>
+<ul>
+<li>Developed Microwave Oven Simulation using MPLAB</li>
+<li>Embedded C programming for PIC microcontrollers</li>
+<li>Simulation using PICSimLab</li>
+</ul>
+</div>
+
+<div class="card">
+<p><strong>IPCS Global</strong> (July 2025)</p>
+<ul>
+<li>Industrial Automation using PLC</li>
+<li>Ladder logic implementation</li>
+<li>Simulation-based automation workflows</li>
+</ul>
+</div>
+
+</section>
+
+<section>
+<h2>Projects</h2>
+
+<div class="card">
+<p><strong>Microwave Oven Simulation (Embedded System)</strong></p>
+<ul>
+<li>Embedded C logic with keypad input</li>
+<li>LCD interface for time display</li>
+<li>Timer-based control logic</li>
+<li>Safety and state-based workflow</li>
+</ul>
+</div>
+
+<div class="card">
+<p><strong>Smart Plant Monitoring System</strong></p>
+<ul>
+<li>Temperature & Humidity sensors</li>
+<li>System design and sensor selection</li>
+</ul>
+</div>
+
+<div class="card">
+<p><strong>Sustainable Retail Packaging Solutions</strong></p>
+<ul>
+<li>Eco-friendly material research</li>
+<li>Design-thinking approach</li>
+</ul>
+</div>
+
+<div class="card">
+<p><strong>AI-Based Rockfall Prediction System</strong></p>
+<ul>
+<li>Conceptual AI workflow</li>
+<li>Open pit mine safety analysis</li>
+</ul>
+</div>
+
+</section>
+
+<section>
+<h2>Skills</h2>
+<div class="card skills">
+<span>Electronics</span>
+<span>Digital Electronics</span>
+<span>Digital Communication</span>
+<span>Electronic Circuits</span>
+<span>Python</span>
+<span>MPLAB</span>
+<span>Proteus</span>
+<span>MS Office</span>
+<span>PLC</span>
+<span>Embedded C</span>
+</div>
+</section>
+
+<section>
+<h2>Languages</h2>
+<div class="card">
+<p>Tamil (Read/Write/Speak)</p>
+<p>English (Read/Write/Speak)</p>
+<p>Hindi (Read/Write/Speak)</p>
+</div>
+</section>
+
+<footer>
+© 2026 Bala Iswarya P | Portfolio Website
+</footer>
+
+</div>
+
+<script>
+const canvas = document.getElementById("bg-canvas");
+const ctx = canvas.getContext("2d");
+
+let frameCount = 240;
+let images = [];
+let loadedImages = 0;
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+for(let i=1; i<=frameCount; i++){
+    const img = new Image();
+    const number = String(i).padStart(3, '0');
+    img.src = `frames/ezgif-frame-${number}.jpg`;
+    img.onload = () => {
+        loadedImages++;
+        if(loadedImages === 1){
+            ctx.drawImage(img,0,0,canvas.width,canvas.height);
+        }
+    }
+    images.push(img);
+}
+
+function updateFrame(){
+    const scrollTop = document.documentElement.scrollTop;
+    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollFraction = scrollTop / maxScroll;
+    const frameIndex = Math.min(
+        frameCount - 1,
+        Math.floor(scrollFraction * frameCount)
+    );
+
+    requestAnimationFrame(()=>{
+        ctx.clearRect(0,0,canvas.width,canvas.height);
+        ctx.drawImage(images[frameIndex],0,0,canvas.width,canvas.height);
+    });
+}
+
+window.addEventListener("scroll", updateFrame);
+
+window.addEventListener("resize", ()=>{
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+});
+</script>
+
+</body>
+</html>
