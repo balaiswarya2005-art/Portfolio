@@ -5,8 +5,9 @@
 }
 
 body {
-    height: 500vh; /* Makes page scrollable */
-    background: black;
+    height: 500vh; /* Controls scroll length */
+    background: #000;
+    overflow-x: hidden;
 }
 
 .scroll-container {
